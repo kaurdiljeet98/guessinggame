@@ -2,6 +2,7 @@
 #THE user will be informed if their guess is too high or too low.
 #Once the user guesses the correct number of files in the current directory they should be congratulated.
 
+#!/usr/bin/env bash 
 
 number_of_files=$(ls | egrep "\."  | wc -l) #count number of FILES in working directory
 #echo $number_of_files
