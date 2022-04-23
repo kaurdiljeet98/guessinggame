@@ -4,7 +4,7 @@
 
 #!/usr/bin/env bash 
 
-number_of_files=$(ls | wc -l) #count number of FILES in working directory
+number_of_files=$(ls -l | wc -l) #count number of FILES in working directory
 #echo $number_of_files
 
 function guesser {
